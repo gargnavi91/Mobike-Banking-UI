@@ -25,14 +25,14 @@ export default function Login({ navigation }) {
     KeyboardManager.resignFirstResponder();
     KeyboardManager.isKeyboardShowing()
       .then((isShowing) => {
-          // ...
+        // ...
       });
-}
+  }
   return (
     <KeyboardAvoidingView
       behavior={Platform.OS === "ios" ? "padding" : "height"}
       style={styles.keyboardView}
-      // keyboardVerticalOffset={sizes.height*3}
+    // keyboardVerticalOffset={sizes.height*3}
     >
       <ScrollView>
         <ImageBackground source={require("../Assets/GreenBackground.png")}
@@ -52,13 +52,13 @@ export default function Login({ navigation }) {
           <View style={styles.usernameView}>
             <Image source={require("../Assets/UserName.png")}
               style={styles.userNameIcon} />
-            <TextInput placeholder='Username'
+            <TextInput placeholder='Username' placeholderTextColor={"grey"}
               style={styles.TextInputPass} onChangeText={(text) => { console.log("textt"); }} />
           </View>
           <View style={styles.usernameView}>
             <Image source={require("../Assets/PasswordIcon.png")}
               style={styles.userNameIcon} />
-            <TextInput placeholder='Password'
+            <TextInput placeholder='Password' placeholderTextColor={"grey"}
               style={styles.TextInputPass} />
           </View>
         </View>
@@ -80,7 +80,7 @@ export default function Login({ navigation }) {
 const styles = StyleSheet.create({
   greenBackground: {
     height: sizes.height * 56,
-    top: -sizes.margin*2.5
+    top: -sizes.margin * 2.5
   },
   stripes: {
     flex: 1,
@@ -156,7 +156,8 @@ const styles = StyleSheet.create({
     marginHorizontal: sizes.margin / 2
   },
   TextInputPass: {
-    width: "100%"
+    width: "100%",
+    color: "grey"
   },
   TouchableBtnLogin: {
     height: sizes.height * 5,

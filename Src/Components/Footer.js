@@ -22,6 +22,7 @@ export default function Footer({ showScan, onPress }) {
                     <TouchableOpacity activeOpacity={0.8} style={[styles.FooterStartSection, {
                         alignItems: "flex-end",
                         borderTopLeftRadius: sizes.radius * 10,
+                        paddingRight:sizes.padding
                     }]}>
                         <Image source={require("../Assets/FooterIcon3.png")} style={styles.FooterIcon} />
                     </TouchableOpacity>

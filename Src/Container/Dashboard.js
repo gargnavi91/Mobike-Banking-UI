@@ -131,6 +131,7 @@ const styles = StyleSheet.create({
         justifyContent: "space-between"
     },
     WelcomeBack: {
+        color:"#000",
         marginTop: -sizes.margin * 0.2
     },
     WelcomName: {
