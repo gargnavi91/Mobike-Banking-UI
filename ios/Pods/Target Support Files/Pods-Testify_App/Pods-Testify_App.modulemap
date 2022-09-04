@@ -1,0 +1,6 @@
+module Pods_Testify_App {
+  umbrella header "Pods-Testify_App-umbrella.h"
+
+  export *
+  module * { export * }
+}

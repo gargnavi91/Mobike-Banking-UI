@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">394426078408</string>
+    <string name="google_api_key" translatable="false">AIzaSyDEyu9k3W2k2L53NTPew2WElWgTA-Qn998</string>
+    <string name="google_app_id" translatable="false">1:394426078408:android:60b46076338f1cb13ac1fd</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDEyu9k3W2k2L53NTPew2WElWgTA-Qn998</string>
+    <string name="google_storage_bucket" translatable="false">testifyapp-5e085.appspot.com</string>
+    <string name="project_id" translatable="false">testifyapp-5e085</string>
+</resources>

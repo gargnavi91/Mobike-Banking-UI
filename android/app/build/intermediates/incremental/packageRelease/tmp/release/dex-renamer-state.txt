@@ -1,0 +1,7 @@
+#Sat Sep 03 03:38:46 IST 2022
+base.1=/Users/dinesh/Documents/Projects/Testify_App/android/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
+path.1=classes2.dex
+base.0=/Users/dinesh/Documents/Projects/Testify_App/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

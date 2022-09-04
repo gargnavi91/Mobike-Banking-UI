@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "394426078408",
+    "project_id": "testifyapp-5e085",
+    "storage_bucket": "testifyapp-5e085.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394426078408:android:60b46076338f1cb13ac1fd",
+        "android_client_info": {
+          "package_name": "com.testify_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394426078408-nron7nefrd8ha99brg7olkrfailllni9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.testify_app",
+            "certificate_hash": "f86e7b352c5b40cf4129b8eaaf45eaff9c4afaf1"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEyu9k3W2k2L53NTPew2WElWgTA-Qn998"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
